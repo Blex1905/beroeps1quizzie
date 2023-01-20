@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splatoon 3</title>
+    <link rel="stylesheet" href="./Pokemon_page.css">
+</head>
+<body>
+    <div id="Splatoon3">
+        <p>Welcome to world of...fighting humans- sea- humanoid sea life! <br> Well quiz about it anyway.
+         This quiz is for the true fans of Splatooon 3.<br>
+         How much do you know about the world of lore, ink, war and way too many weapons? <br><br> 
+         Let's dive in to the game with probably more than 10.3 million players. Get your gear ready and come up with the best strategy to best you opponets. <br><br>
+         But be carfull players from Japan, Serbia and Switzerland can be a lot on your plate to deal with.
+         Every splatfest happens in 3 here. 
+         <br>So everything in the game reflects that and so do the idols.<br><br>
+         But enough playing Rock, paper, Scissors! <br>Let's begin! 
+         Or else we'll be here till November 9th...</p>
+     </div>
+     <div id="Squiz">
+         <h1>Splatoon 3</h1>
+         <hr>
+         <p class="italic"> Tip: Hints can be found anywhere.</p>
+         <p>Q1.In splatoon 3 you play as Agent?</p>
+         <input type="radio" name="question1"> 7 
+         <input type="radio" name="question1" id="correct1" > 3 
+         <input type="radio" name="question1"> 9
+         <input type="radio" name="question1"> 11 <br>
+ 
+         <p>Q2. Who are the idols in Splatoon 3?</p>
+         <input type="radio" name="question2"> Callie & Marie
+         <input type="radio" name="question2"> Pearl & Marina
+         <input type="radio" name="question2">  Judd & lil' Judd
+         <input type="radio" name="question2" id="correct2"> Shiver & Frye & Big Man <br>
+ 
+         <p>Q3. What is the group name of the idols?</p>
+         <input type="radio" name="question3" id="correct3"> Deep Cut
+         <input type="radio" name="question3"> Off The Hook 
+         <input type="radio" name="question3"> Squid sisters
+         <input type="radio" name="question3"> Malamarie <br>
+ 
+         <p>Q4. What was the splatfest world premieres theme?</p>
+         <input type="radio" name="question4"> Sweet/Spicy/Sour
+         <input type="radio" name="question4"> Vork/Spoon/Knife 
+         <input type="radio" name="question4"> Water/Fire/Grass
+         <input type="radio" name="question4" id="correct4"> Rock/Paper/Scissors  <br>
+ 
+         <p>Q5. In the game you choose to be either a ... or  ...?</p>
+         <input type="radio" name="question5"> Mantaling or Sealing 
+         <input type="radio" name="question5"> Hoarseling or Catling
+         <input type="radio" name="question5" id="correct5"> Inkling or Octoling
+         <input type="radio" name="question5"> Sea beast or Mammals <br>
+ 
+         <p>Q6. The title of the game is Splatoon 3 return of the......?</p>
+         <input type="radio" name="question6" id="correct6"> Mammalians
+         <input type="radio" name="question6"> Humans 
+         <input type="radio" name="question6"> Sea 
+         <input type="radio" name="question6"> Liberation <br>
+ 
+         <p>Q7. In single player mode we have a partner, his name is...?</p>
+         <input type="radio" name="question7"> Chum
+         <input type="radio" name="question7"> Bomber
+         <input type="radio" name="question7"> Big france
+         <input type="radio" name="question7" id="correct7"> Small fry  <br>
+ 
+         <p>Q8. Who is the current captain of the new squid beak splatoon? </p>
+         <input type="radio" name="question8"id="correct8" > The Former Agent 3
+         <input type="radio" name="question8"> Captian Cuttlefish
+         <input type="radio" name="question8"> Judd
+         <input type="radio" name="question8"> The Player<br>
+ 
+         <p>Q9. What is the splatlands most famous weapon?</p>
+         <input type="radio" name="question9"> The E-liter 4K scope
+         <input type="radio" name="question9"> The Sloshing Machine
+         <input type="radio" name="question9" id="correct9"> The Tri Stringer 
+         <input type="radio" name="question9"> The Splatana Wiper<br>
+ 
+         <p>Q10. At the end of the world premier which team won?</p>
+         <input type="radio" name="question10"> Paper
+         <input type="radio" name="question10"> Scissors
+         <input type="radio" name="question10" id="correct10"> Rock 
+         <input type="radio" name="question10"> It was a three way tie  <br>
+         <hr>
+         <input type="submit" name="submit" value="Answers" onclick="javascript:result()">
+ 
+         <script type="text/javascript">
+           function result() {
+             var score = 0;
+             if (document.getElementById('correct1').checked) {
+               score++;
+             }
+             if (document.getElementById('correct2').checked) {
+               score++;
+             }
+             if (document.getElementById('correct3').checked) {
+               score++;
+             }
+             if (document.getElementById('correct4').checked) {
+               score++;
+             }
+             if (document.getElementById('correct5').checked) {
+               score++;
+             }
+             if (document.getElementById('correct6').checked) {
+               score++;
+             }
+             if (document.getElementById('correct7').checked) {
+               score++;
+             }
+             if (document.getElementById('correct8').checked) {
+               score++;
+             }
+             if (document.getElementById('correct9').checked) {
+               score++;
+             }
+             if (document.getElementById('correct10').checked) {
+               score++;
+             }
+ 
+ 
+             alert("Your score is:" + score);
+           }
+           window.onscroll = function () {
+             myFunction()
+           };
+         </script>
+    
+</body>
+</html>
